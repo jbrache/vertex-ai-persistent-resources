@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM gcr.io/deeplearning-platform-release/tf2-cpu.2-6
+# FROM gcr.io/deeplearning-platform-release/tf2-cpu.2-6
+FROM gcr.io/deeplearning-platform-release/tf2-cpu.2-12.py310
 WORKDIR /
 
 # Copies the trainer code to the docker image.
